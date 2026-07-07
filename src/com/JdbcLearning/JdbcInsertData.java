@@ -2,7 +2,7 @@ package com.JdbcLearning;
 
 import java.sql.*;
 
-public class Jdbc3 {
+public class JdbcInsertData {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_db","root","S!dd#@rt#");

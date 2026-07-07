@@ -1,7 +1,7 @@
 package com.JdbcLearning;
 
 import java.sql.*;
-public class Jdbc1 {
+public class JdbcDbConnection {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // Class.forName() load a class in JVM memory
 

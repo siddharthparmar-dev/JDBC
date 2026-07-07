@@ -2,7 +2,7 @@ package com.JdbcLearning;
 
 import java.sql.*;
 
-public class Jdbc4 {
+public class JdbcExecute {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/jdbc_db";
